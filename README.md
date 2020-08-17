@@ -11,6 +11,15 @@ A Dog can have many Appointments.
 A Vet can also have many Appointments.
 An Appointment can only have one Dog and one Vet.
 
+## Getting started
+1. Run `bundle` to install all gems.
+2. Run `rake db:migrate` to migrate all the tables to the database.
+3. Run `rake db:migrate:status` to confirm that all the tables were migrated successfully.
+4. Create `seeds.rb` in the `db` directory.
+5. Write seed data for the models.
+6. Run `rake db:seed` to seed the database with the seed data.
+7. Run `rake console` to enter a pry session and play around with the data.
+
 ## Deliverables
 #### Dog
 * `Dog#bark` returns the following string, "Hello, my name is #{self.name} and I am a #{self.breed}. Woof woof!"
