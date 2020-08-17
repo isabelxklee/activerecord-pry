@@ -11,7 +11,7 @@ class Dog < ActiveRecord::Base
   end
 
   def all_appointments
-    
+    # write your code here
   end
 
 end

@@ -20,6 +20,8 @@ Example: `lassie = Dog.find_by(name: "Lassie")`
 
 ## Solutions
 ```ruby
+# Dog
+
 def all_appointments
   if self.appointments.length > 0
     self.appointments.map do |app|
@@ -29,4 +31,10 @@ def all_appointments
     "You don't have any appointments. Arf!"
   end
 end
+
+# Vet
+  def dog_list
+    dog_names = self.appointments.map { |app| app.dog.name }
+    "You have appointments with #{dog_names.join(", ")}."
+  end
 ```
