@@ -15,6 +15,8 @@ app_2 = Appointment.create(date: "Sept 10, 2020", reason: "X-ray", dog_id: Dog.a
 app_3 = Appointment.create(date: "09/12/2020", reason: "Dental surgery", dog_id: Dog.all.sample.id, vet_id: Vet.all.sample.id)
 app_4 = Appointment.create(date: "09/20/2020", reason: "Vaccines", dog_id: Dog.all.sample.id, vet_id: Vet.all.sample.id)
 
+olive = Dog.create(name: "Olive", age: 1, breed: "Pitbull")
+
 puts "All done!"
 
 ################ TESTS ################

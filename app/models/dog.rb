@@ -7,12 +7,11 @@ class Dog < ActiveRecord::Base
   end
 
   def num_of_appointments
-    "You have #{self.appointments.count} appointments."
+    "You have #{self.appointments.count} appointments. Bark!"
   end
 
   def all_appointments
-    self.appointments.map do |appointment|
-      "You have a #{appointment.reason} appointment on #{appointment.date} with #{appointment.vet_id.name}."
-    end
+    
   end
+
 end
