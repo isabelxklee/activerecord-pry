@@ -13,3 +13,7 @@
 Example: `fido = Dog.first`
 * Or if there's a specific instance you want to play around with, use the `find_by` method.
 Example: `lassie = Dog.find_by(name: "Lassie")`
+* Debug `Dog#all_appointments` in pry.
+
+## Datetime format
+* Why does the last Appointment instance have a nil date?
