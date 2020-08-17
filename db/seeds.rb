@@ -19,7 +19,30 @@ olive = Dog.create(name: "Olive", age: 1, breed: "Pitbull")
 
 puts "All done!"
 
+################ instances ################
+
+# fido = Dog.find_by(name: "Fido")
+# lassie = Dog.find_by(name: "Lassie")
+# frankie = Dog.find_by(name: "Frankie")
+
+# squidward = Vet.find_by(name: "Dr. Squidward")
+# spongebob = Vet.find_by(name: "Dr. Spongebob")
+# larry = Vet.find_by(name: "Dr. Larry")
+
 ################ TESTS ################
+
 # fido.bark
 # lassie.bark
 # frankie.bark
+
+# fido.num_of_appointments
+# lassie.num_of_appointments
+# frankie.num_of_appointments
+
+# fido.all_appointments
+# lassie.all_appointments
+# frankie.all_appointments
+
+# dr_squidward.dog_list
+# dr_spongebob.dog_list
+# dr_larry.dog_list
